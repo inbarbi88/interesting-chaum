@@ -1,0 +1,71 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+.grid {
+  display: grid;
+}
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.gap-2 {
+  gap: 0.5rem;
+}
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+.border-2 {
+  border-width: 2px;
+}
+.border-black {
+  border-color: #000;
+}
+.grid {
+  display: grid;
+}
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.md\:grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+.gap-2 {
+  gap: 0.5rem;
+}
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+.border-2 {
+  border-width: 2px;
+}
+.border-black {
+  border-color: black;
+}
+.border {
+  border-width: 1px;
+}
+.border-gray-300 {
+  border-color: #d1d5db;
+}
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.object-cover {
+  object-fit: cover;
+}
+.border-4 {
+  border-width: 4px;
+}
+.border-blue-500 {
+  border-color: #3b82f6;
+}
+.bg-blue-500 {
+  background-color: #3b82f6;
+}
+.bg-opacity-20 {
+  --tw-bg-opacity: 0.2;
+}
